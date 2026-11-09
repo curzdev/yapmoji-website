@@ -1,0 +1,11 @@
+{
+  "name": "yapmoji-bot",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "yapin": "^1.6.0"
+  }
+}
