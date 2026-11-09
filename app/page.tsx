@@ -117,7 +117,7 @@ export default function Page() {
         </section>
 
         <section className="mx-auto max-w-7xl px-5 py-10 lg:px-8">
-          <div className="relative overflow-hidden rounded-3xl border border-[#FC6A39]/20 bg-[#191B20] px-6 py-8 sm:px-10 lg:flex lg:items-center lg:justify-between lg:px-14 lg:py-10">
+          <div className="relative overflow-hidden rounded-3xl border border-[#FC6A39]/20 bg-[#191B20] px-6 py-8 text-white sm:px-10 lg:flex lg:items-center lg:justify-between lg:px-14 lg:py-10">
             <div className="pointer-events-none absolute -right-14 -top-20 size-64 rounded-full bg-[#FC6A39]/10 blur-3xl" />
             <div className="relative max-w-xl"><div className="mb-4 flex items-center gap-2 text-sm font-semibold text-[#FC6A39]"><span className="grid size-7 place-items-center rounded-lg bg-[#FC6A39]/15"><MessageCircle className="size-4" /></span> YapIn for Discord</div><h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Bring your favorite emojis to Discord</h2><p className="mt-3 leading-7 text-[#A1A1AA]">Add thousands of community-made emojis to your Discord server using YapIn.</p></div>
             <div className="relative mt-7 flex items-center gap-5 lg:mt-0"><Button className="bg-[#FC6A39] text-white hover:bg-[#e85d2d]">Add YapIn to Discord <ArrowRight data-icon="inline-end" /></Button><span className="text-xs text-[#A1A1AA]">Free to use</span></div>
