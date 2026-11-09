@@ -89,7 +89,7 @@ export default function Page() {
         <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between gap-5 px-5 lg:px-8">
           <Logo />
           <nav className={`${menuOpen ? 'absolute left-0 right-0 top-[72px] flex border-b border-border bg-background p-5' : 'hidden'} flex-col gap-4 lg:static lg:flex lg:flex-row lg:items-center lg:border-0 lg:bg-transparent lg:p-0`} aria-label="Main navigation">
-            {['Emojis', 'Packs', 'Stickers', 'Marketplace', 'Tools'].map((label) => <Link key={label} href={`/${label.toLowerCase()}`} className="text-sm text-muted-foreground transition-colors hover:text-foreground">{label}</Link>)}
+            {['Emojis', 'Packs', 'Stickers', 'Marketplace', 'Tools', 'Dashboard'].map((label) => <Link key={label} href={`/${label.toLowerCase()}`} className="text-sm text-muted-foreground transition-colors hover:text-foreground">{label}</Link>)}
             <button className="flex items-center gap-1 text-sm text-muted-foreground transition-colors hover:text-foreground">More <ChevronDown className="size-3.5" aria-hidden="true" /></button>
           </nav>
           <div className="flex items-center gap-2">
