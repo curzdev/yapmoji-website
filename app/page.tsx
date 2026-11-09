@@ -95,7 +95,7 @@ export default function Page() {
           <div className="flex items-center gap-2">
             <Button variant="ghost" size="icon" className="text-muted-foreground" onClick={() => setDark((value) => !value)} aria-label={dark ? 'Switch to light theme' : 'Switch to dark theme'}>{dark ? <Sun data-icon="inline-start" /> : <Moon data-icon="inline-start" />}</Button>
             <Button variant="ghost" className="hidden sm:inline-flex">Log in</Button>
-            <Button className="hidden bg-[#FC6A39] text-white hover:bg-[#e85d2d] sm:inline-flex"><Upload data-icon="inline-start" /> Upload Emoji</Button>
+            <Link href="/upload" className="hidden h-8 items-center gap-1.5 rounded-lg bg-[#FC6A39] px-2.5 text-sm font-medium text-white transition-colors hover:bg-[#e85d2d] sm:inline-flex"><Upload className="size-4" /> Upload Emoji</Link>
             <Button variant="ghost" size="icon" className="lg:hidden" onClick={() => setMenuOpen((value) => !value)} aria-label={menuOpen ? 'Close navigation' : 'Open navigation'}>{menuOpen ? <X /> : <Menu />}</Button>
           </div>
         </div>
